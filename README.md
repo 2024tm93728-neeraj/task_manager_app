@@ -3,7 +3,6 @@
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
 ![Back4App](https://img.shields.io/badge/Back4App-BaaS-blue)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 A **Task Manager Application** built using **Flutter** with **Back4App** as the backend.  
 The app supports **user authentication** and **task CRUD operations**, all fully synced to a cloud backend—without building your own server.
@@ -147,11 +146,4 @@ Create Task	POST	/classes/Task
 Fetch Tasks	GET	/classes/Task
 Update Task	PUT	/classes/Task/{id}
 Delete Task	DELETE	/classes/Task/{id}
-```
-All requests include:
-```bash 
-X-Parse-Application-Id
-X-Parse-REST-API-Key
-X-Parse-Session-Token
-
 ```
